@@ -3,9 +3,9 @@
 #' @docType package
 #' @name clustermap
 #' @author Ole Christian Lingjærde & Chloé B. Steen
-devtools::use_package("graphics")
-devtools::use_package("gclus")
-#devtools::use_package("survival")
+library("graphics")
+library("gclus")
+library("survival")
 
 #' blocks
 #' @description This function creates a small example gene expression data set with 110 genes as
